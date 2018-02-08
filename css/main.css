@@ -1,4 +1,13 @@
-* {
-	margin: 0;
-	padding: 0;
+
+
+header {
+  background: url(../img/header-background.jpg);
+}
+
+ul li {
+  display: inline-block;
+  list-style: none;
+}
+nav li a {
+  text-decoration: none;
 }
