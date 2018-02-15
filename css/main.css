@@ -8,6 +8,7 @@ p {
   font-size: 18px;
   font-weight: 300;
   line-height: 30px;
+  color: #949494;
 }
 .header {
   padding: 50px 0 105px;
@@ -53,17 +54,21 @@ span {
 
   text-align: center;
 }
-.title {
-  font-size: 48px;
+.title,
+.title-2 {
   font-weight: 700;
   line-height: 36px;
+}
+.title {
+  font-size: 48px;
+}
+.title-2 {
+  font-size: 30px;
 }
 .header-text__subtitle {
   font-weight: 400;
   
   margin: 10px 0 65px;
-
-  color: #949494;
 }
 .roundedr-rectangle {
   font-size: 18px;
@@ -86,7 +91,8 @@ span {
 }
 .scroll-down {
   text-align: center;
-
+}
+.scroll-down__text {
   color: #fff;
 }
 .scroll-down__img {
@@ -98,16 +104,10 @@ span {
   background-size: cover;
   color: #fff;
   padding: 150px 0 145px;
-  
 }
 .design-code p {
   margin: 20px 0 40px;
-}
-.best-design {
-  padding-right: 38px;
-}
-.best-code {
-  padding-left: 38px;
+  color: #fff;
 }
 .what-we-do {
   padding: 100px 0 105px;
@@ -115,7 +115,21 @@ span {
 .what-we-do .title {
   text-align: center;
 }
-
+.what-we-do__content {
+  margin: 88px 0 101px;
+}
+.what-we-do__img {
+  display: inline-block;
+  margin-right: 36px;
+  vertical-align: top;
+}
+.what-we-do__text {
+  display: inline-block;
+  max-width: 363px;
+}
+.what-we-do .roundedr-rectangle {
+  margin: 0 auto;
+}
 
 
 .map {
