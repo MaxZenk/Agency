@@ -12,7 +12,7 @@ p {
 .header {
   padding: 50px 0 105px;
 
-  background: url(../img/header/header-background.jpg);
+  background: url(../img/header/header-background.jpg) no-repeat;
 }
 .main-menu {
   float: right;
@@ -93,10 +93,16 @@ span {
   margin-bottom: 9px;
 }
 .design-code {
+  background: url(../img/design-code/design-code-bg.jpg) no-repeat;
   color: #fff;
   padding: 150px 0 145px;
-  background-color: grey; 
 }
 .design-code p {
   margin: 15px 0 35px;
+}
+.best-design {
+  padding-right: 38px;
+}
+.best-code {
+  padding-left: 38px;
 }
