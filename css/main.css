@@ -138,6 +138,7 @@ span {
 }
 .map img {
   margin: 262px auto 282px;
+  display: block;
 }
 .footer p {
   line-height: 36px;
