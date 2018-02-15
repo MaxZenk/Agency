@@ -111,12 +111,7 @@ span {
 
 
 
-.map {
-  background: url(../img/map/map.jpg) no-repeat;
-}
-.map img {
-  margin: 262px auto 282px;
-}
+
 .footer p {
   line-height: 36px;
   color: #a7acbc;
