@@ -117,3 +117,9 @@ span {
 .map img {
   margin: 262px auto 282px;
 }
+.footer p {
+  line-height: 36px;
+  color: #a7acbc;
+  text-align: center;
+  padding: 60px 0 580px;
+}
