@@ -106,3 +106,14 @@ span {
 .best-code {
   padding-left: 38px;
 }
+
+
+
+
+
+.map {
+  background: url(../img/map/map.jpg) no-repeat;
+}
+.map img {
+  margin: 262px auto 282px;
+}
