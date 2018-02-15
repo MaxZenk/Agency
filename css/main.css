@@ -4,6 +4,11 @@ body {
 a {
   text-decoration: none;
 }
+p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+}
 .header {
   padding: 50px 0 105px;
 
@@ -39,7 +44,7 @@ a {
 
   color: #000;
 }
-.logo span {
+span {
   font-weight: 300;
 }
 .header-text {
@@ -47,16 +52,14 @@ a {
 
   text-align: center;
 }
-.header-text__title {
+.title {
   font-size: 48px;
   font-weight: 700;
   line-height: 36px;
 }
 .header-text__subtitle {
-  font-size: 18px;
   font-weight: 400;
-  line-height: 30px;
-
+  
   margin: 10px 0 65px;
 
   color: #949494;
@@ -88,4 +91,7 @@ a {
 .scroll-down__img {
   width: 43px;
   margin-bottom: 9px;
+}
+.design-code {
+  color: #000;
 }
