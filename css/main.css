@@ -89,4 +89,6 @@ a {
   width: 43px;
   margin-bottom: 9px;
 }
-
+.best-design-bgd {
+  background: url(../img/design-code/design.png);
+}
