@@ -11,8 +11,9 @@ p {
 }
 .header {
   padding: 50px 0 105px;
-
-  background: url(../img/header/header-background.jpg) no-repeat;
+  
+  background: url(../img/header/header-background.jpg) center no-repeat;
+background-size: cover;
 }
 .main-menu {
   float: right;
@@ -93,12 +94,14 @@ span {
   margin-bottom: 9px;
 }
 .design-code {
-  background: url(../img/design-code/design-code-bg.jpg) no-repeat;
+  background: url(../img/design-code/design-code-bg.jpg) center no-repeat;
+  background-size: cover;
   color: #fff;
   padding: 150px 0 145px;
+  
 }
 .design-code p {
-  margin: 15px 0 35px;
+  margin: 20px 0 40px;
 }
 .best-design {
   padding-right: 38px;
@@ -106,12 +109,22 @@ span {
 .best-code {
   padding-left: 38px;
 }
+.what-we-do {
+  padding: 100px 0 105px;
+}
+.what-we-do .title {
+  text-align: center;
+}
 
 
 
-
-
-
+.map {
+  background: url(../img/map/map.jpg) center no-repeat;
+  background-size: cover;
+}
+.map img {
+  margin: 262px auto 282px;
+}
 .footer p {
   line-height: 36px;
   color: #a7acbc;
