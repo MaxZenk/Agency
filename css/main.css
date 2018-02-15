@@ -93,5 +93,10 @@ span {
   margin-bottom: 9px;
 }
 .design-code {
-  color: #000;
+  color: #fff;
+  padding: 150px 0 145px;
+  background-color: grey; 
+}
+.design-code p {
+  margin: 15px 0 35px;
 }
