@@ -14,7 +14,7 @@ p {
   padding: 50px 0 105px;
   
   background: url(../img/header/header-background.jpg) center no-repeat;
-background-size: cover;
+  background-size: cover;
 }
 .main-menu {
   float: right;
@@ -55,7 +55,8 @@ span {
   text-align: center;
 }
 .title,
-.title-2 {
+.title-2,
+.title-3 {
   font-weight: 700;
   line-height: 36px;
 }
@@ -64,6 +65,9 @@ span {
 }
 .title-2 {
   font-size: 30px;
+}
+.title-3 {
+  font-size: 24px;
 }
 .header-text__subtitle {
   font-weight: 400;
@@ -82,7 +86,6 @@ span {
 
   text-align: center;
 
-  color: #fff;
   border-radius: 25px;
   background: linear-gradient(74deg, #49007c 0%, #e70088 100%);
 }
@@ -92,8 +95,14 @@ span {
 .scroll-down {
   text-align: center;
 }
-.scroll-down__text {
+.roundedr-rectangle,
+.scroll-down__text,
+.design-code .title,
+.design-code p,
+.about-us .title,
+.about-us .title-3 {
   color: #fff;
+  
 }
 .scroll-down__img {
   width: 43px;
@@ -102,17 +111,17 @@ span {
 .design-code {
   background: url(../img/design-code/design-code-bg.jpg) center no-repeat;
   background-size: cover;
-  color: #fff;
   padding: 150px 0 145px;
 }
 .design-code p {
   margin: 20px 0 40px;
-  color: #fff;
 }
 .what-we-do {
   padding: 100px 0 105px;
 }
-.what-we-do .title {
+.what-we-do .title,
+.about-us,
+.footer {
   text-align: center;
 }
 .what-we-do__content {
@@ -127,11 +136,33 @@ span {
   display: inline-block;
   max-width: 363px;
 }
-.what-we-do .roundedr-rectangle {
+.what-we-do__text p {
+  margin-top: 10px;
+}
+.what-we-do .roundedr-rectangle,
+.about-us .roundedr-rectangle {
   margin: 0 auto;
 }
-
-
+.about-us {
+  background: rgba(0, 0, 0, 0.6) url(../img/about-us/bg-about-us.jpg) center no-repeat;
+  background-blend-mode: color;
+  background-size: cover;
+  padding: 115px 0;
+ 
+}
+.about-us__subtitle {
+  margin: 38px auto 138px;
+  max-width: 700px;
+}
+.about-us .title-3 {
+  margin: 20px 0 15px;
+}
+.about-us img {
+  border-radius: 50%;
+}
+.about-us__text {
+  margin: 0 0 110px;
+}
 .map {
   background: url(../img/map/map.jpg) center no-repeat;
   background-size: cover;
@@ -142,7 +173,5 @@ span {
 }
 .footer p {
   line-height: 36px;
-  color: #a7acbc;
-  text-align: center;
   padding: 60px 0 580px;
 }
