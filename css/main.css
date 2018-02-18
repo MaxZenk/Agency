@@ -100,7 +100,9 @@ span {
 .design-code .title,
 .design-code p,
 .about-us .title,
-.about-us .title-3 {
+.about-us .title-3,
+.overlay .title-2,
+.overlay p {
   color: #fff;
   
 }
@@ -140,15 +142,62 @@ span {
   margin-top: 10px;
 }
 .what-we-do .roundedr-rectangle,
-.about-us .roundedr-rectangle {
+.about-us .roundedr-rectangle,
+.overlay .roundedr-rectangle {
   margin: 0 auto;
 }
+.bgd-portfolio {
+  width: 33.33%;
+  float: left;
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+  text-align: center;
+  
+  padding: 130px 0 125px;
+  background-color: rgba(0, 0, 0, 0.63);
+}
+
+.bgd-portfolio:hover > .overlay {
+  visibility: visible;
+  opacity: 1;
+}
+.overlay p {
+  margin: 15px auto 60px;
+  max-width: 387px;
+  line-height: 24px;
+  font-size: 16px;
+}
+.portfolio::after {
+  content: ' ';
+  display: table;
+  clear: both;
+}
+.bgd-img-1 {
+  background: url(../img/portfolio/tmp-1.jpg) center no-repeat;
+}
+.bgd-img-2 {
+  background: url(../img/portfolio/tmp-2.jpg) center no-repeat;
+}
+.bgd-img-3 {
+  background: url(../img/portfolio/tmp-3.jpg) center no-repeat;
+}
+.bgd-img-1,
+.bgd-img-2,
+.bgd-img-3 {
+  height: 481px;
+}
 .about-us {
-  background: rgba(0, 0, 0, 0.6) url(../img/about-us/bg-about-us.jpg) center no-repeat;
+  background: rgba(0, 0, 0, 0.63) url(../img/about-us/bg-about-us.jpg) center no-repeat;
   background-blend-mode: color;
   background-size: cover;
   padding: 115px 0;
- 
 }
 .about-us__subtitle {
   margin: 38px auto 138px;
