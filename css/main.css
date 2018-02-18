@@ -8,11 +8,12 @@ p {
   font-size: 18px;
   font-weight: 300;
   line-height: 30px;
+
   color: #949494;
 }
 .header {
   padding: 50px 0 105px;
-  
+
   background: url(../img/header/header-background.jpg) center no-repeat;
   background-size: cover;
 }
@@ -71,7 +72,7 @@ span {
 }
 .header-text__subtitle {
   font-weight: 400;
-  
+
   margin: 10px 0 65px;
 }
 .roundedr-rectangle {
@@ -104,16 +105,16 @@ span {
 .overlay .title-2,
 .overlay p {
   color: #fff;
-  
 }
 .scroll-down__img {
   width: 43px;
   margin-bottom: 9px;
 }
 .design-code {
+  padding: 150px 0 145px;
+
   background: url(../img/design-code/design-code-bg.jpg) center no-repeat;
   background-size: cover;
-  padding: 150px 0 145px;
 }
 .design-code p {
   margin: 20px 0 40px;
@@ -131,11 +132,14 @@ span {
 }
 .what-we-do__img {
   display: inline-block;
+
   margin-right: 36px;
+
   vertical-align: top;
 }
 .what-we-do__text {
   display: inline-block;
+
   max-width: 363px;
 }
 .what-we-do__text p {
@@ -147,9 +151,11 @@ span {
   margin: 0 auto;
 }
 .bgd-portfolio {
-  width: 33.33%;
-  float: left;
   position: relative;
+
+  float: left;
+
+  width: 33.33%;
 }
 .overlay {
   position: absolute;
@@ -157,27 +163,33 @@ span {
   right: 0;
   bottom: 0;
   left: 0;
+
   visibility: hidden;
-  text-align: center;
-  
+
   padding: 130px 0 125px;
-  background-color: rgba(0, 0, 0, 0.63);
+
+  text-align: center;
+
+  background-color: rgba(0, 0, 0, .63);
 }
 
 .bgd-portfolio:hover > .overlay {
   visibility: visible;
+
   opacity: 1;
 }
 .overlay p {
-  margin: 15px auto 60px;
-  max-width: 387px;
-  line-height: 24px;
   font-size: 16px;
+  line-height: 24px;
+
+  max-width: 387px;
+  margin: 15px auto 60px;
 }
 .portfolio::after {
-  content: ' ';
   display: table;
   clear: both;
+
+  content: ' ';
 }
 .bgd-img-1 {
   background: url(../img/portfolio/tmp-1.jpg) center no-repeat;
@@ -194,14 +206,16 @@ span {
   height: 481px;
 }
 .about-us {
-  background: rgba(0, 0, 0, 0.63) url(../img/about-us/bg-about-us.jpg) center no-repeat;
-  background-blend-mode: color;
-  background-size: cover;
   padding: 115px 0;
+
+  background: rgba(0, 0, 0, .63) url(../img/about-us/bg-about-us.jpg) center no-repeat;
+  background-size: cover;
+
+  background-blend-mode: color;
 }
 .about-us__subtitle {
-  margin: 38px auto 138px;
   max-width: 700px;
+  margin: 38px auto 138px;
 }
 .about-us .title-3 {
   margin: 20px 0 15px;
@@ -217,10 +231,12 @@ span {
   background-size: cover;
 }
 .map img {
-  margin: 262px auto 282px;
   display: block;
+
+  margin: 262px auto 282px;
 }
 .footer p {
   line-height: 36px;
+
   padding: 60px 0 580px;
 }
